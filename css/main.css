@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+}
+ul{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 80%;
+}
+li{
+  display: inline-block;
+  margin: 0 40px;
+}
+
+li a .fa{
+  font-size: 40px;
+  color: rgb(26, 26, 26);
+  line-height: 80px;
+  transition: 0.5s;
+}
+li a{
+  position: relative;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  text-align: center;
+}
